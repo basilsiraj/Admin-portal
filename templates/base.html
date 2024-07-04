@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Portal</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="{% url 'admin' %}">Home</a></li>
+            <li><a href="{% url 'customer_list' %}">Customers</a></li>
+            <li><a href="{% url 'invoice_list' %}">Invoices</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
