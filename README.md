@@ -2,9 +2,9 @@ Admin Portal Django Application
 This is a simple admin portal built with Django, featuring user authentication, customer management, and invoice management.
 
 Requirements
-Python 3.x
+Python 
 Django
-Virtualenv (optional but recommended)
+Virtualenv 
 
 Setup Instructions
 1. Clone the Repository
